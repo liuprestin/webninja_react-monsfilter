@@ -3,6 +3,8 @@ import React, {
 } from 'react';
 import './App.css';
 
+import { CardList } from './components/card-list/card-list.component';
+
 class App extends Component {
   constructor() {
     super();
@@ -20,8 +22,11 @@ class App extends Component {
 
 
   render() {
-    return ( <
-      div className = "App" > {
+    return ( 
+      <div className = "App" > 
+      <CardList />
+      
+      {
         this.state.monsters.map(monster => ( <
           h1 key = {
             monster.id
@@ -29,8 +34,8 @@ class App extends Component {
             monster.name
           } < /h1>
         ))
-      } <
-      /div>
+      } 
+      </div>
     );
   }
 }
