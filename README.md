@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+#### Monsfilter React app 
+
+A demo website that displays cards of monster profiles from a search ;
+based on a tutorial from ZTM. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
